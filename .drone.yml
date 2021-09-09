@@ -1,0 +1,13 @@
+---
+kind: pipeline
+type: docker
+name: app
+
+steps:
+      
+- name: deploy app
+  image: medleandro/pb_project:latest 
+ 
+  commands:
+  - 
+  
